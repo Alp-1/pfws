@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="770" height="776" viewBox="0 0 770 776">
+  <g id="Group_5" data-name="Group 5" transform="translate(-1118 -275)">
+    <g id="Rectangle_5" data-name="Rectangle 5" transform="translate(1304 664)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="194" height="194" rx="32" stroke="none"/>
+      <rect x="0.5" y="0.5" width="193" height="193" rx="31.5" fill="none"/>
+    </g>
+    <g id="Rectangle_6" data-name="Rectangle 6" transform="translate(1500 857)" fill="#3072a2" stroke="#707070" stroke-width="1">
+      <rect width="194" height="194" rx="32" stroke="none"/>
+      <rect x="0.5" y="0.5" width="193" height="193" rx="31.5" fill="none"/>
+    </g>
+    <g id="Rectangle_7" data-name="Rectangle 7" transform="translate(1500 275)" fill="#27699a" stroke="#707070" stroke-width="1">
+      <rect width="194" height="194" rx="32" stroke="none"/>
+      <rect x="0.5" y="0.5" width="193" height="193" rx="31.5" fill="none"/>
+    </g>
+    <g id="Rectangle_8" data-name="Rectangle 8" transform="translate(1500 470)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="194" height="194" rx="32" stroke="none"/>
+      <rect x="0.5" y="0.5" width="193" height="193" rx="31.5" fill="none"/>
+    </g>
+    <g id="Rectangle_9" data-name="Rectangle 9" transform="translate(1694 857)" fill="#ff9e1f" stroke="#707070" stroke-width="1" opacity="0.55">
+      <rect width="194" height="194" rx="32" stroke="none"/>
+      <rect x="0.5" y="0.5" width="193" height="193" rx="31.5" fill="none"/>
+    </g>
+    <g id="Rectangle_10" data-name="Rectangle 10" transform="translate(1498 663)" fill="#86f5f8" stroke="#707070" stroke-width="1" opacity="0.57">
+      <rect width="194" height="194" rx="32" stroke="none"/>
+      <rect x="0.5" y="0.5" width="193" height="193" rx="31.5" fill="none"/>
+    </g>
+    <g id="Ellipse_2" data-name="Ellipse 2" transform="translate(1118 291)" fill="#ff9e1f" stroke="#707070" stroke-width="1">
+      <circle cx="93" cy="93" r="93" stroke="none"/>
+      <circle cx="93" cy="93" r="92.5" fill="none"/>
+    </g>
+    <g id="Polygon_1" data-name="Polygon 1" transform="translate(1604 619)" fill="rgba(255,255,255,0)">
+      <path d="M 244.0289001464844 219.0001068115234 L 25.97119903564453 219.0001068115234 L 135.0000305175781 30.01671981811523 L 244.0289001464844 219.0001068115234 Z" stroke="none"/>
+      <path d="M 135.0000305175781 60.03334045410156 L 51.94227600097656 204.0001220703125 L 218.0577392578125 204.0001220703125 L 135.0000305175781 60.03334045410156 M 135.0000305175781 0 L 270.0000305175781 234.0001220703125 L -3.0517578125e-05 234.0001220703125 L 135.0000305175781 0 Z" stroke="none" fill="#000"/>
+    </g>
+  </g>
+</svg>

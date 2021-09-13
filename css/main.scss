@@ -1,0 +1,642 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;1,200&family=Poppins:ital,wght@0,400;0,700;1,300&display=swap');
+body {
+    height: 100vh;
+    margin: 0;
+    font-family:'Poppins', arial;
+}
+
+ul{
+
+    list-style: none ;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+ 
+img{width:100%;}
+
+
+.navcontainer {
+    
+    
+    background: black;
+
+    a{
+        color: white;
+    }
+   
+}
+
+.landingfront{
+    z-index: -1;
+    background: #1e1e1e;
+    color: white;
+    display: grid;
+    text-align: center;
+    padding: 4em;
+    
+}
+
+header{
+    z-index: -1;
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+
+    nav{
+        
+        ul{
+            display: flex;
+
+            a{
+                font-size: 13px;
+                width: 10px;
+                padding: 0 1em;
+            }
+        }
+
+    }
+}
+
+.socialcontainer,.hero-design,.downtri,.footertri,.footerhero{
+    display: none;
+}
+
+
+
+.meet{
+    margin: 0 auto;
+    width: 200px;
+    font-weight: bold;
+    color: chartreuse;
+}
+
+.scroll{
+
+    width: 40px;
+    margin-top: 2em;
+
+}
+
+section{
+
+    padding: 4em 2em;
+    text-align: center;
+
+}
+
+.subtitle{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #FF9E1F;
+    letter-spacing: .1em;
+
+}
+
+
+.About-Me{
+    position: relative;
+    color: darkslateblue;
+    
+}
+
+ .abouttitle {
+    
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #FF9E1F;
+    letter-spacing: .1em;
+    padding-bottom: 3px;
+
+    
+
+  }
+
+ .metextbody{
+    padding-left: 65px;
+    text-align: left;
+    font-size: 15px;
+    
+    
+  } 
+
+ .left{
+    padding-top: 55px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-position:-240px 0px;
+    z-index: -1;
+       
+}
+
+
+
+.Engineering{
+    position: relative;
+    background-color: #FFC983;
+}
+
+.engtitlecont{
+    
+    text-transform: uppercase;
+    font-weight: bold;
+    top: 29px;
+    left: 10;
+    color: black;
+    letter-spacing: .1em;
+    padding-bottom: 40px;
+    text-align: center;
+    
+    
+}
+
+.engineering-cont{
+
+    ul{
+
+        li{
+            background: white;
+            padding: 2em;
+            border-radius: 1em;
+            margin-bottom: 1em;
+
+            .icon-container{
+                width: 35%;
+                height: 100px;
+                display: grid;
+                place-content: center;
+                margin: 0 auto;
+
+                &.one{
+                    width: 100px;
+                }
+                &.two{
+                    width: 100px;
+                }
+                &.three{
+                    width: 100px;
+                }
+            }
+
+        }
+    }
+
+}
+
+.Check_My_Modules, .Check_My_Projects, .Check_My_Skills{
+
+    font-weight: bold;
+
+}
+
+.skill_list_container{
+
+    
+    ul, li { ul, li { margin: 0; padding: 0; text-align: left;}
+    margin: 0; 
+    padding: 0; } // I have zero clue why this actually worked
+}
+
+.featured-desc{
+    margin-bottom: 2em;
+}
+
+.creasubtitle{
+    
+    text-transform: uppercase;
+    font-weight: bold;
+    top: 24px;
+    left: 10;
+    color:#3072A2;
+    letter-spacing: .1em;
+    padding-bottom: 29px;
+    text-align: center;
+    
+}
+
+
+.creain1, .asder, .creain3{
+    display: flex;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 1em;
+    margin-bottom: 1em;
+    text-align: left;
+    
+
+}
+
+.creaimg1, .creaimg2, .creaimg3{
+    width: 20%;
+                height: 100px;
+                place-content: left;
+                padding: 8px;
+
+}
+
+.wdesign{
+
+padding-top: 30px;
+padding-left: 50px 
+
+}
+
+ .wdesign2{
+
+    padding-top: 5px;
+    padding-left: 50px;
+  }
+
+  .Creative_Design {
+    position: relative;
+  }
+  
+  .Creative_Design::before {
+    content: "";
+    position: absolute;
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    background:#BDD1E0;
+    top: 9px;
+    right: 6px;
+    z-index: -1;
+    
+  }
+
+  .wdesign2::before {
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background:#BDD1E0;
+    bottom: 140px;
+    left: 90px;
+    z-index: -1;
+    
+  }
+
+  .portbutton{
+    position: absolute;
+    .portbuttonimg{
+        width: 34%;
+        padding-left: 280px;
+    }
+  }
+
+  .contacthyperlink{
+    font-weight: bold;
+    color:sandybrown
+
+  }
+
+  .footercontainer{
+    background-color: black;
+   
+  }
+
+  footer{
+
+    background: black;
+    font-weight: bold;
+    text-align: left;
+    justify-content: space-between;
+    padding-top: 0;
+    margin: 0;
+
+    nav{
+        
+        ul{
+            justify-content: left;
+
+            a{
+                color:blanchedalmond;
+                font-size: 16px;
+                margin: 0;
+                padding: 0 1em;
+            }
+        }
+
+    }
+ }
+
+.footername{
+    color: chartreuse;
+
+}
+
+
+@media only screen and (min-width :920px){
+
+    html{overflow-x: hidden;}
+
+
+
+
+    .landingparent{
+        
+        display: grid;
+        grid-template-columns: 25% auto;
+    }
+  
+    
+    .landingfront{
+    
+        color: white;
+        display: grid;
+        text-align: center;
+        padding: 4em;
+        height: 80%;
+        
+    }
+
+    .navcontainer{
+        height: 110.4% ;
+
+    }
+    
+    header{
+        
+        justify-content: space-between;
+    
+        nav{
+            
+            ul{
+                
+                padding-top: 8em;
+                display: block;
+                
+                li{ display: block;
+                padding-bottom: 10px;}
+    
+                a{
+                    font-size: 12pt;
+                    width: 10px;
+                    
+
+                }
+            }
+    
+        }
+    }
+
+    .About-Me{
+        position: relative;
+        color: darkslateblue;
+        padding-top: 103px;
+        font-size: 15pt;
+        
+    }
+    
+     .abouttitle {
+        
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #FF9E1F;
+        letter-spacing: .1em;
+        padding-bottom: 30px;
+    
+        
+    
+      }
+    
+     .metextbody{
+        //background-color: blueviolet;
+        padding-left: 200px;
+        text-align: left;
+        font-size: 14pt;
+        
+        
+      } 
+    
+     .left{
+        width: 35em;
+        padding-bottom: 0px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        object-position:-240px -111px;
+        z-index: -1;
+           
+    }
+
+
+
+    .engineering-cont ul{
+
+        display: grid;
+        grid-template-columns: repeat(3,auto);
+        grid-gap: 1em;
+        margin-bottom: -8em;
+        margin-top: -15px;
+
+
+    }
+
+    .skill_list_container{
+
+        ul, li { 
+        display: block;
+        margin: 0; 
+        padding: 0; } // I have zero clue why this actually worked
+
+    }
+    
+    .Creative_Design {
+        position: relative;
+        margin-top: 3em;
+    }
+
+    .creasubtitle{
+        padding-top: -5px;
+        font-size: 15pt;
+    }
+
+    .feadesc1, .feadesc2{
+        margin-top: 4em;
+    }
+
+    .Creative_Design::before {
+        content: "";
+        position: absolute;
+        width: 240px;
+        height: 240px;
+        border-radius: 50%;
+        background:#BDD1E0;
+        top: -40px;
+        right: -55px;
+        z-index: 1;
+        
+    }
+    
+      .wdesign2::before {
+        content: "";
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        background:#BDD1E0;
+        bottom: 90px;
+        left: 10px;
+        z-index: -1;
+        }
+
+        .downtri {
+            position: absolute;
+            display: unset;
+            width: 35em;
+            top: -90px;
+            right: -320px;
+            z-index: 2;
+            
+        }
+
+        .portbutton{
+            position: relative;
+            .portbuttonimg{
+                width: 11em;
+                padding-left: 510px;
+            }
+          }
+
+          .creain1, .asder, .creain3{
+            display: flex;
+            font-size: 12pt;
+            font-weight: bold;
+            border-radius: 1em;
+            margin-bottom: 1em;
+            text-align: left;
+            
+        
+        }
+
+        .footercontainer{
+            position: relative;
+            .footerhero{
+                position: absolute;
+                display: unset;
+                width: 15em;
+                top: 38px;
+                right: 5px;
+
+                
+                
+            }
+        }
+
+}
+
+// @media only screen and (min-width :1050px){
+
+//     .scroll {
+
+//         position: absolute;
+//         top: 28em;
+//         left:25em
+       
+//     }
+
+//     .navcontainer{
+
+//         width: 12em;
+//         height: 30em;
+ 
+        
+//     }
+
+//     header{
+        
+//         justify-content: space-between;
+    
+//         nav{
+            
+//             ul{
+                
+                
+//                 position: absolute;
+//                 left:0;
+//                 top: 4em;
+//                 padding-top: 7em;
+//                 display: block;
+                
+//                 li{ display: block;
+//                 padding-bottom: 10px;}
+    
+//                 a{
+//                     font-size: 13px;
+//                     width: 10px;
+                    
+
+//                 }
+//             }
+    
+//         }
+//     }
+    
+//     .landingparent{
+        
+//         margin: 0;
+//         padding: 0;
+//         grid-template-columns: 0 auto;
+
+//     }
+
+//     .landingfront{
+//         position: relative;
+//         width: 77%;
+//         height: 73.3%;
+
+//         .hero-design{
+//             display: unset;
+//             position: absolute;
+//             right: -6.21em;
+//             top: -0.5em;
+//             width: 24.7em;
+//             margin: 0;
+//             padding: 0;
+    
+//         }
+        
+
+//     }
+
+//     .pagetitle{
+    
+//         width: 50%;
+//         padding-left: 9em;
+//         font-size: 135%;
+
+//     }
+
+//     .About-Me{
+//         padding-top: 10em;
+//         padding-bottom: 10em;
+//     }
+
+//     .left{
+
+//         width: 60%;
+
+//     }
+
+//     .socialcontainer{
+//         position: absolute;
+//         width: 3em;
+//         top: 32em;
+//         left:1em;
+
+//         display: unset;
+//         .linkedin{
+//             width: 10%;
+//         }
+
+//     }
+
+
+// }

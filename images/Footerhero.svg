@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="574" height="574" viewBox="0 0 574 574">
+  <g id="Footerhero" transform="translate(0 -5441)">
+    <g id="Rectangle_17" data-name="Rectangle 17" transform="translate(194 6015) rotate(180)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="194" height="194" rx="32" stroke="none"/>
+      <rect x="0.5" y="0.5" width="193" height="193" rx="31.5" fill="none"/>
+    </g>
+    <g id="Rectangle_21" data-name="Rectangle 21" transform="translate(388 6015) rotate(180)" fill="#ff9e1f" stroke="#707070" stroke-width="1" opacity="0.55">
+      <rect width="194" height="194" rx="32" stroke="none"/>
+      <rect x="0.5" y="0.5" width="193" height="193" rx="31.5" fill="none"/>
+    </g>
+    <g id="Rectangle_22" data-name="Rectangle 22" transform="translate(194 5821) rotate(180)" fill="#86f5f8" stroke="#707070" stroke-width="1" opacity="0.57">
+      <rect width="194" height="194" rx="32" stroke="none"/>
+      <rect x="0.5" y="0.5" width="193" height="193" rx="31.5" fill="none"/>
+    </g>
+    <g id="Ellipse_5" data-name="Ellipse 5" transform="translate(574 5627) rotate(180)" fill="#ff9e1f" stroke="#707070" stroke-width="1">
+      <circle cx="93" cy="93" r="93" stroke="none"/>
+      <circle cx="93" cy="93" r="92.5" fill="none"/>
+    </g>
+  </g>
+</svg>
